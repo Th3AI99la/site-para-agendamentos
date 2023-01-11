@@ -1,6 +1,5 @@
 ## Site para agendamentos com link para o WhatsApp
 
-- https://th3ai99la.github.io/site-para-agendamentos/
 
 ## Objetivo: 
 - Agendar e enviar as informações para o WhatsApp.
