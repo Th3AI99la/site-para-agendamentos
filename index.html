@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Empresa</title>
+    <link rel="stylesheet" href="css/zap.css" />
+
+  </head>
+
+  <body>
+    <form action="" class="formulario">
+
+      <img src="files/logo.jpg" class="imgLogo"/>
+
+      <h1 class="formulario__titulo">Empresa</h1>
+
+      <h3 class="formulario__subtitulo">Reserve aqui!</h3>
+
+      <p class="formulario__parrafo">
+        Preencha este pequeno formulário para agendar a sua consulta no MEU NEGÓCIO.
+      </p>
+
+      <label for="cliente" class="formulario__label">Qual é o seu nome?</label>
+
+     <input id="cliente" type="text" class="formulario__input"placeholder="Digite o nome completo"/>
+
+     <label for="datas" class="formulario__label">Indique a data de sua reserva</label>
+
+      <input
+        id="datas"
+        type="date"
+        class="formulario__input"
+        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"/>
+
+      <label for="hora" class="formulario__label" >Indique a hora da sua reserva</label>
+
+      <input id="hora" type="time" class="formulario__input" />
+
+      <label for="empregado" class="formulario__label"
+        >EMPREGADO preferencial</label>
+
+      <select id="empregado" name="listadeempregados" class="formulario__input">
+
+        <option>EMPREGADO 1</option>
+        <option>EMPREGADO 2</option>
+
+      </select>
+
+      <label for="servico" class="formulario__label"
+
+        >Qual é o serviço que pretende realizar?</label>
+
+      <select id="servico" name="listaservico" class="formulario__input">
+
+        <option>SERVIÇO 1 - $VALOR</option>
+        <option>SERVIÇO 2 - $VALOR</option>
+        <option>SERVIÇO 3 - $VALOR</option>
+        <option>SERVIÇO 4 - $VALOR</option>
+        <option>SERVIÇO 5 - $VALOR</option>
+
+      </select>
+
+      <div id="respostaempregado"></div>
+
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+      
+    </form>
+
+    <script src="js/js.js"></script>
+  </body>
+
+</html>
+
